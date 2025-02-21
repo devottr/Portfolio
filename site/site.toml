@@ -1,0 +1,37 @@
+[page]
+title = "Example Page"
+tagline = "laugh it up fuzzball"
+body = """
+    This is a really cool site.
+    I hope you enjoy it.
+
+    How about a markdown [link]()?
+"""
+footer = """
+    Bye!
+"""
+
+[[social]]
+url = "mailto:web.glamour675@passinbox.com"
+text = "contact email"
+icon = "envelope"
+
+[[social]]
+url = "https://codeberg.org/devefe"
+text = "Devefe"
+brand = "github"
+
+[[link]]
+url = "https://forem.dev/devefe"
+icon = "rocket"
+text = "Forem"
+
+[[link]]
+url = "https://codeberg.org/devefe"
+brand = "github"
+text = "Project Repositories"
+
+[[link]]
+url = "#links"
+image = "images/avatar.jpg"
+text = "Link with image"
